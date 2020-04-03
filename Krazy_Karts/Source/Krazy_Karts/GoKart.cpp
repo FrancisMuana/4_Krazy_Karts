@@ -25,14 +25,19 @@ void AGoKart::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	FVector Translation = Velocity * 100 * DeltaTime;
+	FVector Force = GetActorForwardVector() * MaxDrivingForce * Throttle;
+	FVector Acceleration = Force / Mass;
+
+	Velocity = Velocity + Acceleration * DeltaTime;
+
+	FVector Translation = Velocity * 100 * DeltaTime;	//	dx = v * dt
 
 	AddActorWorldOffset(Translation);
 }
 
 void AGoKart::MoveForward(float Val)
 {
-	Velocity = GetActorForwardVector() * 20 * Val;
+	Throttle = Val;
 }
 
 void AGoKart::MoveRight(float Val)
