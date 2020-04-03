@@ -1,0 +1,2 @@
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\Definitions.Krazy_Karts.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\Krazy_Karts.h

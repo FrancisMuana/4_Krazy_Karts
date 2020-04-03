@@ -1,0 +1,18 @@
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\Definitions.Krazy_Karts.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\Krazy_KartsGameMode.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Inc\Krazy_Karts\Krazy_KartsGameMode.generated.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\Krazy_KartsPawn.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\WheeledVehicle.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\WheeledVehicle.generated.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Inc\Krazy_Karts\Krazy_KartsPawn.generated.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\Krazy_KartsHud.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Inc\Krazy_Karts\Krazy_KartsHud.generated.h

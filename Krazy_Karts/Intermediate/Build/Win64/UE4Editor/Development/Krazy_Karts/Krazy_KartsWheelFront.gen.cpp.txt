@@ -1,0 +1,7 @@
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\Definitions.Krazy_Karts.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts/Krazy_KartsWheelFront.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\PhysXVehicles\Source\PhysXVehicles\Public\VehicleWheel.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\PhysXVehicles\Intermediate\Build\Win64\UE4Editor\Inc\PhysXVehicles\VehicleWheel.generated.h
+C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Inc\Krazy_Karts\Krazy_KartsWheelFront.generated.h

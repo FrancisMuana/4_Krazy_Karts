@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Krazy_Karts",
+			"Path": "C:\\Users\\Mark Muana\\source\\repos\\4_Krazy_Karts\\Krazy_Karts\\Source\\Krazy_Karts.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Krazy_KartsEditor",
+			"Path": "C:\\Users\\Mark Muana\\source\\repos\\4_Krazy_Karts\\Krazy_Karts\\Source\\Krazy_KartsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
