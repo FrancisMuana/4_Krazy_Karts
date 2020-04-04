@@ -21,7 +21,7 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;	
+	virtual void Tick(float DeltaTime) override;
 
 	/** Handle pressing forwards */
 	void MoveForward(float Val);
@@ -33,7 +33,9 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 private:
-	void UpdateLocationFromVelocity(float DeltaTime);
+	void ApplyRotation(float DeltaTime);
+
+	void UpdateLocationFromVelocity(float DeltaTime);	
 
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float Mass = 1000;	//	mass of the car (kg).
@@ -42,7 +44,11 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float MaxDrivingForce = 10000;	// 10,000 N / 1,000 kg gives us acceleration of 10
 
+	UPROPERTY(EditAnywhere, Category = "Defaults")
+	float MaxDegreesPerSecond = 90;	// the number of degrees the car turns per second (degrees/s).
+
 	FVector Velocity;
 
 	float Throttle;
+	float SteeringThrow;
 };

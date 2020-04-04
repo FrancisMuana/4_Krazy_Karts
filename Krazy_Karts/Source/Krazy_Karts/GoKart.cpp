@@ -31,7 +31,19 @@ void AGoKart::Tick(float DeltaTime)
 
 	Velocity = Velocity + Acceleration * DeltaTime;
 
+	ApplyRotation(DeltaTime);
+
 	UpdateLocationFromVelocity(DeltaTime);
+}
+
+void AGoKart::ApplyRotation(float DeltaTime)
+{
+	float RotationAngle = MaxDegreesPerSecond * DeltaTime * SteeringThrow;
+	FQuat RotationDelta(GetActorUpVector(), FMath::DegreesToRadians(RotationAngle));
+
+	Velocity = RotationDelta.RotateVector(Velocity);
+
+	AddActorWorldRotation(RotationDelta);
 }
 
 void AGoKart::UpdateLocationFromVelocity(float DeltaTime)
@@ -54,6 +66,7 @@ void AGoKart::MoveForward(float Val)
 
 void AGoKart::MoveRight(float Val)
 {
+	SteeringThrow = Val;
 }
 
 // Called to bind functionality to input
