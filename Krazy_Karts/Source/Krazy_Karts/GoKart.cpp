@@ -27,13 +27,21 @@ void AGoKart::Tick(float DeltaTime)
 
 	FVector Force = GetActorForwardVector() * MaxDrivingForce * Throttle;
 
+	Force += GetResistance();
+
 	FVector Acceleration = Force / Mass;
 
-	Velocity = Velocity + Acceleration * DeltaTime;
+	Velocity = Velocity + Acceleration * DeltaTime;	
 
 	ApplyRotation(DeltaTime);
 
 	UpdateLocationFromVelocity(DeltaTime);
+}
+
+FVector AGoKart::GetResistance()
+{
+	//	AirResistance = -Speed² * DragCoefficient
+	return -Velocity.GetSafeNormal() * Velocity.SizeSquared() * DragCoefficient;
 }
 
 void AGoKart::ApplyRotation(float DeltaTime)
@@ -43,7 +51,7 @@ void AGoKart::ApplyRotation(float DeltaTime)
 
 	Velocity = RotationDelta.RotateVector(Velocity);
 
-	AddActorWorldRotation(RotationDelta);
+	AddActorWorldRotation(RotationDelta);	// turn the car
 }
 
 void AGoKart::UpdateLocationFromVelocity(float DeltaTime)
@@ -53,7 +61,7 @@ void AGoKart::UpdateLocationFromVelocity(float DeltaTime)
 	FHitResult Hit;
 	AddActorWorldOffset(Translation, true, &Hit);
 
-	if (Hit.IsValidBlockingHit())	// If hit something
+	if (Hit.IsValidBlockingHit())	// If hit something, stop
 	{
 		Velocity = FVector::ZeroVector;
 	}

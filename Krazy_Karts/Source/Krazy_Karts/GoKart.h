@@ -33,6 +33,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 private:
+	FVector GetResistance();
+
 	void ApplyRotation(float DeltaTime);
 
 	void UpdateLocationFromVelocity(float DeltaTime);	
@@ -46,6 +48,9 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float MaxDegreesPerSecond = 90;	// the number of degrees the car turns per second (degrees/s).
+
+	UPROPERTY(EditAnywhere, Category = "Defaults")
+	float DragCoefficient = 16;	//	Higher means more drag
 
 	FVector Velocity;
 

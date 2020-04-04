@@ -30,3 +30,13 @@
 
 
 # Apply Rotations With Quaternions
+
+# Simulating Air Resistance
+  AirResistance = -Speed² * DragCoefficient
+  AirResistance / Speed² = DragCoefficient
+        10,000 N /  25² m/s = DragCoefficient
+
+  * Velocity - is a vector
+    * it tells us about the direction and the magnitude
+  * Speed - is a float
+    * it tells us the magnitude of the velocity vector
