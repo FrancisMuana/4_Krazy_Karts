@@ -23,6 +23,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void MoveForward(float Val);
+	void MoveRight(float Val);
+
 	/** Handle pressing forwards */
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_MoveForward(float Val);

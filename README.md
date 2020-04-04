@@ -65,3 +65,5 @@
 # Server Functions & Cheat Protection
 
   * RPC :   UFUNCTION(Server, Reliable, WithValidation)
+
+# AutonomousProxy vs SimulatedProxy
