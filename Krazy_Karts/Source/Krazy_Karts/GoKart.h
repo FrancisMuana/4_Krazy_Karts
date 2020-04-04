@@ -21,7 +21,7 @@ protected:
 
 public:	
 	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	virtual void Tick(float DeltaTime) override;	
 
 	/** Handle pressing forwards */
 	void MoveForward(float Val);
@@ -33,6 +33,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 private:
+	void UpdateLocationFromVelocity(float DeltaTime);
+
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float Mass = 1000;	//	mass of the car (kg).
 

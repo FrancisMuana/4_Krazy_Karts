@@ -24,3 +24,6 @@
   * dx = v * dt
   * dv / dt = a
   * dv = a * dt
+
+# Blocking Movement Without Physics
+  * Reset the velocity to zero when hit something

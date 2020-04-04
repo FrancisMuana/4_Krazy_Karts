@@ -26,13 +26,25 @@ void AGoKart::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	FVector Force = GetActorForwardVector() * MaxDrivingForce * Throttle;
+
 	FVector Acceleration = Force / Mass;
 
 	Velocity = Velocity + Acceleration * DeltaTime;
 
+	UpdateLocationFromVelocity(DeltaTime);
+}
+
+void AGoKart::UpdateLocationFromVelocity(float DeltaTime)
+{
 	FVector Translation = Velocity * 100 * DeltaTime;	//	dx = v * dt
 
-	AddActorWorldOffset(Translation);
+	FHitResult Hit;
+	AddActorWorldOffset(Translation, true, &Hit);
+
+	if (Hit.IsValidBlockingHit())	// If hit something
+	{
+		Velocity = FVector::ZeroVector;
+	}
 }
 
 void AGoKart::MoveForward(float Val)
