@@ -56,9 +56,14 @@ FVector AGoKart::GetRollingResistance()
 
 void AGoKart::ApplyRotation(float DeltaTime)
 {
-	float RotationAngle = MaxDegreesPerSecond * DeltaTime * SteeringThrow;
-	FQuat RotationDelta(GetActorUpVector(), FMath::DegreesToRadians(RotationAngle));
+	//	if the velocity is a positive number DeltaLocation is '+'. if it's negative, deltalocation becomes '-'
+	//	This dotproduct is necessary for the turning of the car in reverse to be correct.
+	float DeltaLocation = FVector::DotProduct(GetActorForwardVector(), Velocity) * DeltaTime;
+	//	TurningCircle: dtheta = dx / r
+	float RotationAngle = DeltaLocation / MinTurningRadius * SteeringThrow;
 
+	FQuat RotationDelta(GetActorUpVector(), RotationAngle);
+	//	this is necessary so the forward vector depends on where the car is facing
 	Velocity = RotationDelta.RotateVector(Velocity);
 
 	AddActorWorldRotation(RotationDelta);	// turn the car

@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeKrazy_Karts_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xF505F4D5,
+				0x9955856C,
 				0x4499B763,
 				METADATA_PARAMS(nullptr, 0)
 			};

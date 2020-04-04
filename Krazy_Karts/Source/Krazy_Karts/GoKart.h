@@ -49,8 +49,8 @@ private:
 	float MaxDrivingForce = 10000;	// 10,000 N / 1,000 kg gives us acceleration of 10
 
 	UPROPERTY(EditAnywhere, Category = "Defaults")
-	float MaxDegreesPerSecond = 90;	// the number of degrees the car turns per second (degrees/s).
-
+	float MinTurningRadius = 10; // minimum radius of the car turning circle in meters
+	
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float DragCoefficient = 16;	//	Higher means more drag
 

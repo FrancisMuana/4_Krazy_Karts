@@ -49,5 +49,14 @@
         * F - Force due to gravity
         * m - mass of the object
         * g - acceleration due to gravity
-        
+
               F = m*g
+
+# Steering and Turning Circle
+
+    TurningCircle:
+      * dx  - delta movement
+      * dΘ  - delta theta
+      * r   - radius
+
+            dΘ = dx / r
