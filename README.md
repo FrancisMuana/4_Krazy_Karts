@@ -40,3 +40,14 @@
     * it tells us about the direction and the magnitude
   * Speed - is a float
     * it tells us the magnitude of the velocity vector
+
+# Rolling Resistance
+  * Rolling Resistance Coefficient formula:
+      RollingResistance = RRCoefficient * NormalForce
+
+      NormalForce:
+        * F - Force due to gravity
+        * m - mass of the object
+        * g - acceleration due to gravity
+        
+              F = m*g
