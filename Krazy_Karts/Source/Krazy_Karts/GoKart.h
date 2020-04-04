@@ -24,10 +24,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	/** Handle pressing forwards */
-	void MoveForward(float Val);
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_MoveForward(float Val);
 
 	/** Handle pressing right */
-	void MoveRight(float Val);
+	UFUNCTION(Server, Reliable, WithValidation)
+	void Server_MoveRight(float Val);
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

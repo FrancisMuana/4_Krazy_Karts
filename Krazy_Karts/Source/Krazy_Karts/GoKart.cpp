@@ -82,16 +82,6 @@ void AGoKart::UpdateLocationFromVelocity(float DeltaTime)
 	}
 }
 
-void AGoKart::MoveForward(float Val)
-{
-	Throttle = Val;
-}
-
-void AGoKart::MoveRight(float Val)
-{
-	SteeringThrow = Val;
-}
-
 // Called to bind functionality to input
 void AGoKart::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -100,7 +90,29 @@ void AGoKart::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	// set up gameplay key bindings
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAxis("MoveForward", this, &AGoKart::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AGoKart::MoveRight);
+	PlayerInputComponent->BindAxis("MoveForward", this, &AGoKart::Server_MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AGoKart::Server_MoveRight);
 }
+
+void AGoKart::Server_MoveForward_Implementation(float Val)
+{
+	Throttle = Val;
+}
+
+bool AGoKart::Server_MoveForward_Validate(float Val)
+{	
+	return FMath::Abs(Val) <= 1;
+}
+
+void AGoKart::Server_MoveRight_Implementation(float Val)
+{
+	SteeringThrow = Val;
+}
+
+bool AGoKart::Server_MoveRight_Validate(float Val)
+{	
+	return FMath::Abs(Val) <= 1;
+}
+
+
 

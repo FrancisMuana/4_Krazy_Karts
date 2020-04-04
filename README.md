@@ -60,3 +60,8 @@
       * r   - radius
 
             dΘ = dx / r
+
+
+# Server Functions & Cheat Protection
+
+  * RPC :   UFUNCTION(Server, Reliable, WithValidation)
