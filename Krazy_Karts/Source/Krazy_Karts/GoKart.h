@@ -62,6 +62,7 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float RollingResistanceCoefficient = 0.015;	//	Higher means more rolling resistance
 
+	UPROPERTY(Replicated)
 	FVector Velocity;
 
 	UPROPERTY(ReplicatedUsing= OnRep_ReplicatedTransform)
@@ -69,7 +70,9 @@ private:
 
 	UFUNCTION()
 	void OnRep_ReplicatedTransform();	
-
+	
+	UPROPERTY(Replicated)
 	float Throttle;
+	UPROPERTY(Replicated)
 	float SteeringThrow;
 };

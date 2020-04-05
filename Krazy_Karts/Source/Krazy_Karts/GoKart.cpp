@@ -31,6 +31,9 @@ void AGoKart::GetLifetimeReplicatedProps(TArray< FLifetimeProperty >& OutLifetim
 {
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 	DOREPLIFETIME(AGoKart, ReplicatedTransform);	
+	DOREPLIFETIME(AGoKart, Velocity);
+	DOREPLIFETIME(AGoKart, SteeringThrow);	
+	DOREPLIFETIME(AGoKart, Throttle);
 }
 
 FString GetEnumText(ENetRole Role)
