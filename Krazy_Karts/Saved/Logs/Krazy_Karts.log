@@ -1545,3 +1545,42 @@ Scale3D: 1.000000 1.000000 1.000000
 [2020.04.05-06.16.34:704][201]LogPlayLevel: Display: Destroying online subsystem :Context_15
 [2020.04.05-06.16.34:704][201]LogPlayLevel: Display: Destroying online subsystem :Context_14
 [2020.04.05-06.59.10:901][201]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.04.05-10.39.04:703][769]Candidate modules for hot reload:
+[2020.04.05-10.39.04:703][769]  Krazy_Karts
+[2020.04.05-10.39.04:704][769]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Krazy_Karts,9828 Win64 Development -TargetType=Editor -Project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" "C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject"  -IgnoreJunk]
+[2020.04.05-10.39.04:715][769]Warning: Starting HotReload took  0.5s.
+[2020.04.05-10.40.02:694][975]CompilerResultsLog: New page: Compilation - Apr 5, 2020, 4:40:02 PM
+[2020.04.05-10.40.02:742][975]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mark Muana\source\repos\4_Krazy_Karts).
+[2020.04.05-10.40.02:742][975]CompilerResultsLog: Parsing headers for Krazy_KartsEditor
+[2020.04.05-10.40.02:742][975]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Krazy_Karts.uproject" "C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\Krazy_KartsEditor\Development\Krazy_KartsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.05-10.40.02:742][975]CompilerResultsLog: Reflection code generated for Krazy_KartsEditor in 9.6915625 seconds
+[2020.04.05-10.40.02:764][975]CompilerResultsLog: Building Krazy_KartsEditor...
+[2020.04.05-10.40.02:764][975]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-10.40.02:764][975]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.05-10.40.02:764][975]CompilerResultsLog:   [1/6] Krazy_Karts.init.gen.cpp
+[2020.04.05-10.40.02:764][975]CompilerResultsLog:   [2/6] GoKart.cpp
+[2020.04.05-10.40.02:764][975]CompilerResultsLog:   C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(79): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.05-10.40.02:775][975]CompilerResultsLog:   [3/6] GoKart.gen.cpp
+[2020.04.05-10.40.02:775][975]CompilerResultsLog:   [4/6] UE4Editor-Krazy_Karts-9828.lib
+[2020.04.05-10.40.02:775][975]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9828.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9828.exp
+[2020.04.05-10.40.02:775][975]CompilerResultsLog:   [5/6] UE4Editor-Krazy_Karts-9828.dll
+[2020.04.05-10.40.02:775][975]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9828.suppressed.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9828.suppressed.exp
+[2020.04.05-10.40.02:775][975]CompilerResultsLog:   [6/6] Krazy_KartsEditor.target
+[2020.04.05-10.40.02:775][975]CompilerResultsLog: Total time in Parallel executor: 45.26 seconds
+[2020.04.05-10.40.02:775][975]CompilerResultsLog: Total execution time: 57.33 seconds
+[2020.04.05-10.40.02:775][975]LogMainFrame: MainFrame: Module compiling took 58.079 seconds
+[2020.04.05-10.40.05:232][975]LogUObjectHash: Compacting FUObjectHashTables data took  67.74ms
+[2020.04.05-10.40.06:381][975]LogClass: Could not find existing type GoKartState for HotReload. Assuming new
+[2020.04.05-10.40.06:433][975]LogClass: Could not find existing type GoKartMove for HotReload. Assuming new
+[2020.04.05-10.40.06:962][975]LogContentBrowser: Native class hierarchy updated for 'Krazy_Karts' in 0.0986 seconds. Added 6 classes and 2 folders.
+[2020.04.05-10.40.06:967][975]Display: HotReload successful (3 functions remapped  2 scriptstructs remapped)
+[2020.04.05-10.40.07:615][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.05-10.40.08:512][975]LogContentBrowser: Native class hierarchy populated in 0.1737 seconds. Added 3025 classes and 725 folders.
+[2020.04.05-10.40.08:513][975]Display: HotReload took 64.3s.
+[2020.04.05-10.40.13:249][328]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.05-10.40.13:557][328]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" -game -rocket -progress
+[2020.04.05-10.40.14:074][328]Discovering modules, targets and source code for project...
+[2020.04.05-10.40.17:910][328]Binding IntelliSense data...
+[2020.04.05-10.40.22:708][328]Binding IntelliSense data... 100%
+[2020.04.05-10.40.22:913][328]Writing project files...
+[2020.04.05-10.40.30:676][328]Writing project files... 100%
