@@ -59,11 +59,7 @@ public:
 
 	/** Handle pressing forwards */
 	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_MoveForward(float Val);
-
-	/** Handle pressing right */
-	UFUNCTION(Server, Reliable, WithValidation)
-	void Server_MoveRight(float Val);
+	void Server_SendMove(FGoKartMove Move);	
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -93,14 +89,13 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Defaults")
 	float RollingResistanceCoefficient = 0.015;	//	Higher means more rolling resistance
 
-	UPROPERTY(Replicated)
+	UPROPERTY(ReplicatedUsing = OnRep_ServerState)
+	FGoKartState ServerState;	
+
 	FVector Velocity;
 
-	UPROPERTY(ReplicatedUsing= OnRep_ReplicatedTransform)
-	FTransform ReplicatedTransform;
-
 	UFUNCTION()
-	void OnRep_ReplicatedTransform();	
+	void OnRep_ServerState();	
 	
 	UPROPERTY(Replicated)
 	float Throttle;

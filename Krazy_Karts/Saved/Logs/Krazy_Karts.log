@@ -1584,3 +1584,968 @@ Scale3D: 1.000000 1.000000 1.000000
 [2020.04.05-10.40.22:708][328]Binding IntelliSense data... 100%
 [2020.04.05-10.40.22:913][328]Writing project files...
 [2020.04.05-10.40.30:676][328]Writing project files... 100%
+[2020.04.05-10.57.33:377][ 25]Candidate modules for hot reload:
+[2020.04.05-10.57.33:377][ 25]  Krazy_Karts
+[2020.04.05-10.57.33:378][ 25]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Krazy_Karts,9651 Win64 Development -TargetType=Editor -Project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" "C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject"  -IgnoreJunk]
+[2020.04.05-10.57.33:455][ 25]Warning: Starting HotReload took  0.5s.
+[2020.04.05-10.58.09:619][843]CompilerResultsLog: New page: Compilation - Apr 5, 2020, 4:58:09 PM
+[2020.04.05-10.58.09:620][843]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mark Muana\source\repos\4_Krazy_Karts).
+[2020.04.05-10.58.09:620][843]CompilerResultsLog: Creating makefile for Krazy_KartsEditor (no existing makefile)
+[2020.04.05-10.58.09:713][843]CompilerResultsLog: Parsing headers for Krazy_KartsEditor
+[2020.04.05-10.58.09:713][843]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Krazy_Karts.uproject" "C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\Krazy_KartsEditor\Development\Krazy_KartsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.05-10.58.09:714][843]CompilerResultsLog: Reflection code generated for Krazy_KartsEditor in 10.3016543 seconds
+[2020.04.05-10.58.09:714][843]CompilerResultsLog: Building Krazy_KartsEditor...
+[2020.04.05-10.58.09:714][843]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-10.58.09:714][843]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:   [1/6] Krazy_Karts.init.gen.cpp
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:   [2/6] GoKart.cpp
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:   C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(80): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:   [3/6] GoKart.gen.cpp
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:   [4/6] UE4Editor-Krazy_Karts-9651.lib
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9651.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9651.exp
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:   [5/6] UE4Editor-Krazy_Karts-9651.dll
+[2020.04.05-10.58.09:714][843]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9651.suppressed.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-9651.suppressed.exp
+[2020.04.05-10.58.09:715][843]CompilerResultsLog:   [6/6] Krazy_KartsEditor.target
+[2020.04.05-10.58.09:715][843]CompilerResultsLog: Total time in Parallel executor: 20.85 seconds
+[2020.04.05-10.58.09:715][843]CompilerResultsLog: Total execution time: 35.70 seconds
+[2020.04.05-10.58.09:716][843]LogMainFrame: MainFrame: Module compiling took 36.647 seconds
+[2020.04.05-10.58.09:926][843]LogUObjectHash: Compacting FUObjectHashTables data took  10.35ms
+[2020.04.05-10.58.10:330][843]LogClass: Could not find existing class GoKart in package /Script/Krazy_Karts for HotReload, assuming new class
+[2020.04.05-10.58.10:378][843]LogClass: Function OnRep_ServerState is new.
+[2020.04.05-10.58.10:378][843]LogClass: Function Server_MoveForward is new.
+[2020.04.05-10.58.10:378][843]LogClass: Function Server_MoveRight is new.
+[2020.04.05-10.58.10:395][843]LogClass: GoKartState HotReload.
+[2020.04.05-10.58.10:395][843]LogClass: GoKartMove HotReload.
+[2020.04.05-10.58.10:517][843]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.05-10.58.11:425][843]LogContentBrowser: Native class hierarchy updated for 'Krazy_Karts' in 0.0018 seconds. Added 6 classes and 2 folders.
+[2020.04.05-10.58.11:428][843]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2020.04.05-10.58.11:627][843]LogUObjectHash: Compacting FUObjectHashTables data took  14.60ms
+[2020.04.05-10.58.11:712][843]LogContentBrowser: Native class hierarchy populated in 0.0714 seconds. Added 3025 classes and 725 folders.
+[2020.04.05-10.58.11:713][843]Display: HotReload took 38.8s.
+[2020.04.05-10.58.32:298][276]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.05-10.58.32:764][276]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-10.58.32:788][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.05-10.58.32:818][276]PIE: New page: PIE session: VehicleExampleMap (Apr 5, 2020, 4:58:32 PM)
+[2020.04.05-10.58.32:819][276]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-10.58.33:463][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.613732s)
+[2020.04.05-10.58.33:502][276]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-10.58.33:503][276]LogPlayLevel: PIE: World Init took: (0.039528s)
+[2020.04.05-10.58.33:503][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.683930s)
+[2020.04.05-10.58.33:529][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.05-10.58.33:627][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.05-10.58.33:627][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.05-10.58.33:628][276]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.05-10.58.33:629][276]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Name: Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Is Default: Yes
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: Channel Order:
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.05-10.58.33:703][276]LogAudioMixer: Display: 1: FrontRight
+[2020.04.05-10.58.33:749][276]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-10.58.34:145][276]LogInit: FAudioDevice initialized.
+[2020.04.05-10.58.34:189][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-10.58.34:190][276]LogLoad: Game class is 'GameMode_BP_C'
+[2020.04.05-10.58.34:586][276]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-13.58.34
+[2020.04.05-10.58.34:586][276]LogWorld: Bringing up level for play took: 0.357246
+[2020.04.05-10.58.34:612][276]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.05-10.58.34:769][276]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.04.05-10.58.34:769][276]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.04.05-10.58.34:770][276]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.04.05-10.58.34:779][276]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-10.58.34:779][276]LogNet: GameNetDriver IpNetDriver_14 IpNetDriver listening on port 17777
+[2020.04.05-10.58.35:011][276]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap 3.107
+[2020.04.05-10.58.35:064][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-10.58.35:064][276]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2020.04.05-10.58.35:065][276]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.04.05-10.58.35:067][276]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-10.58.35:068][276]LogNet: Game client on port 17777, rate 10000
+[2020.04.05-10.58.35:069][276]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 3.166
+[2020.04.05-10.58.35:073][276]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-10.58.35:073][276]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49387
+[2020.04.05-10.58.35:073][276]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 160243059173022061063129133012191179070178214077109156219156
+[2020.04.05-10.58.35:431][276]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 160243059173022061063129133012191179070178214077109156219156
+[2020.04.05-10.58.36:117][277]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49387
+[2020.04.05-10.58.36:117][277]LogHandshake: SendChallengeAck. InCookie: 160243059173022061063129133012191179070178214077109156219156
+[2020.04.05-10.58.36:117][277]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49387
+[2020.04.05-10.58.36:277][277]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-10.58.36:277][277]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 04/05/20 13:58:36, [UNetConnection] RemoteAddr: 127.0.0.1:49387, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-10.58.36:277][277]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49387, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-10.58.36:279][277]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: PendingNetDriver IpNetDriver_15, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-10.58.36:614][278]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2020.04.05-10.58.36:614][278]LogNet: Remote platform little endian=1
+[2020.04.05-10.58.36:614][278]LogNet: This platform little endian=1
+[2020.04.05-10.58.36:624][278]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.04.05-10.58.36:691][279]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD userId: NULL:markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD platform: NULL
+[2020.04.05-10.58.36:693][279]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/Blueprints/GameMode_BP.GameMode_BP_C)
+[2020.04.05-10.58.36:693][279]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/Blueprints/GameMode_BP.GameMode_BP_C
+[2020.04.05-10.58.36:693][279]LogWorld: BeginTearingDown for /Temp/Untitled_8
+[2020.04.05-10.58.36:693][279]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-10.58.36:693][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-10.58.36:693][279]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-10.58.36:724][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.04.05-10.58.36:844][279]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-10.58.36:933][279]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-13.58.36
+[2020.04.05-10.58.36:934][279]LogWorld: Bringing up level for play took: 0.087502
+[2020.04.05-10.58.36:934][279]LogLoad: Took 0.241450 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2020.04.05-10.58.36:982][280]LogNet: Client netspeed is 10000
+[2020.04.05-10.58.36:982][280]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD?SplitscreenCount=1
+[2020.04.05-10.58.36:982][280]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-10.58.36:984][280]LogNet: Join succeeded: markmuana-DESKTOP-08
+[2020.04.05-10.58.37:406][302]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-10.58.37:455][307]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-10.59.00:362][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-10.59.00:362][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-10.59.00:362][475]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-10.59.00:362][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-10.59.00:362][475]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap
+[2020.04.05-10.59.00:376][475]LogSlate: Window 'Krazy_Karts Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-10.59.00:380][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-10.59.00:380][475]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-10.59.00:381][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-10.59.00:500][475]LogNet: World NetDriver shutdown IpNetDriver_15 [GameNetDriver]
+[2020.04.05-10.59.00:500][475]LogNet: DestroyNamedNetDriver IpNetDriver_15 [GameNetDriver]
+[2020.04.05-10.59.00:500][475]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD, Channels: 11, Time: 2020.04.05-10.59.00
+[2020.04.05-10.59.00:500][475]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_14, Driver: GameNetDriver IpNetDriver_15, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD
+[2020.04.05-10.59.00:500][475]LogExit: GameNetDriver IpNetDriver_15 shut down
+[2020.04.05-10.59.00:502][475]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-10.59.00:502][475]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.04.05-10.59.00:503][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-10.59.00:516][475]LogSlate: Window 'Krazy_Karts Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-10.59.00:784][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-10.59.00:784][475]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-10.59.00:785][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-10.59.00:790][475]LogNet: World NetDriver shutdown IpNetDriver_14 [GameNetDriver]
+[2020.04.05-10.59.00:790][475]LogNet: DestroyNamedNetDriver IpNetDriver_14 [GameNetDriver]
+[2020.04.05-10.59.00:823][475]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49387, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD
+[2020.04.05-10.59.00:823][475]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49387, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD, Channels: 11, Time: 2020.04.05-10.59.00
+[2020.04.05-10.59.00:823][475]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49387, Name: IpConnection_15, Driver: GameNetDriver IpNetDriver_14, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-08C10B8546AFA0EEF6A50DBA16BCCFBD
+[2020.04.05-10.59.00:823][475]LogExit: GameNetDriver IpNetDriver_14 shut down
+[2020.04.05-10.59.00:824][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.05-10.59.00:824][475]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-10.59.00:828][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-10.59.00:853][475]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-10.59.01:117][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.04.05-10.59.01:199][476]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.04.05-10.59.01:199][476]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.05-11.04.03:569][679]Candidate modules for hot reload:
+[2020.04.05-11.04.03:569][679]  Krazy_Karts
+[2020.04.05-11.04.03:570][679]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Krazy_Karts,3940 Win64 Development -TargetType=Editor -Project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" "C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject"  -IgnoreJunk]
+[2020.04.05-11.04.03:609][679]Warning: Starting HotReload took  0.2s.
+[2020.04.05-11.04.27:428][776]CompilerResultsLog: New page: Compilation - Apr 5, 2020, 5:04:27 PM
+[2020.04.05-11.04.27:429][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mark Muana\source\repos\4_Krazy_Karts).
+[2020.04.05-11.04.27:429][776]CompilerResultsLog: Parsing headers for Krazy_KartsEditor
+[2020.04.05-11.04.27:429][776]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Krazy_Karts.uproject" "C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\Krazy_KartsEditor\Development\Krazy_KartsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.05-11.04.27:429][776]CompilerResultsLog: Reflection code generated for Krazy_KartsEditor in 9.7902763 seconds
+[2020.04.05-11.04.27:429][776]CompilerResultsLog: Building Krazy_KartsEditor...
+[2020.04.05-11.04.27:429][776]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-11.04.27:429][776]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.04.05-11.04.27:429][776]CompilerResultsLog:   [1/6] Krazy_Karts.init.gen.cpp
+[2020.04.05-11.04.27:429][776]CompilerResultsLog:   [2/6] GoKart.cpp
+[2020.04.05-11.04.27:429][776]CompilerResultsLog:   C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(80): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.05-11.04.27:453][776]CompilerResultsLog:    C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(146) : error C3861: 'Server_MoveForward': identifier not found
+[2020.04.05-11.04.27:453][776]CompilerResultsLog:    C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(152) : error C3861: 'Server_MoveRight': identifier not found
+[2020.04.05-11.04.27:453][776]CompilerResultsLog:    C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(157) : error C2440: '=': cannot convert from 'FGoKartMove' to 'float'
+[2020.04.05-11.04.27:453][776]CompilerResultsLog:   C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(157): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+[2020.04.05-11.04.27:453][776]CompilerResultsLog:   [3/6] GoKart.gen.cpp
+[2020.04.05-11.04.27:453][776]LogMainFrame: MainFrame: Module compiling took 23.888 seconds
+[2020.04.05-11.04.27:462][776]Warning: HotReload failed, recompile failed
+[2020.04.05-11.04.34:778][105]Running C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" -game -rocket -progress
+[2020.04.05-11.04.35:290][105]Discovering modules, targets and source code for project...
+[2020.04.05-11.04.38:521][105]Binding IntelliSense data...
+[2020.04.05-11.04.41:908][105]Binding IntelliSense data... 100%
+[2020.04.05-11.04.41:908][105]Writing project files...
+[2020.04.05-11.04.48:928][105]Writing project files... 100%
+[2020.04.05-11.11.58:828][585]Candidate modules for hot reload:
+[2020.04.05-11.11.58:828][585]  Krazy_Karts
+[2020.04.05-11.11.58:828][585]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Krazy_Karts,8379 Win64 Development -TargetType=Editor -Project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" "C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject"  -IgnoreJunk]
+[2020.04.05-11.11.58:865][585]Warning: Starting HotReload took  0.1s.
+[2020.04.05-11.12.14:702][888]CompilerResultsLog: New page: Compilation - Apr 5, 2020, 5:12:14 PM
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mark Muana\source\repos\4_Krazy_Karts).
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Creating makefile for Krazy_KartsEditor (no existing makefile)
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Building Krazy_KartsEditor...
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:   [1/4] GoKart.cpp
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:   C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(89): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:   [2/4] UE4Editor-Krazy_Karts-8379.lib
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-8379.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-8379.exp
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:   [3/4] UE4Editor-Krazy_Karts-8379.dll
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-8379.suppressed.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-8379.suppressed.exp
+[2020.04.05-11.12.14:704][888]CompilerResultsLog:   [4/4] Krazy_KartsEditor.target
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Total time in Parallel executor: 10.58 seconds
+[2020.04.05-11.12.14:704][888]CompilerResultsLog: Total execution time: 15.51 seconds
+[2020.04.05-11.12.14:704][888]LogMainFrame: MainFrame: Module compiling took 15.880 seconds
+[2020.04.05-11.12.14:829][888]LogUObjectHash: Compacting FUObjectHashTables data took  11.33ms
+[2020.04.05-11.12.15:579][888]LogClass: Could not find existing class GoKart in package /Script/Krazy_Karts for HotReload, assuming new class
+[2020.04.05-11.12.15:579][888]LogClass: Function OnRep_ServerState is new.
+[2020.04.05-11.12.15:579][888]LogClass: Function Server_SendMove is new.
+[2020.04.05-11.12.15:586][888]LogClass: GoKartState HotReload.
+[2020.04.05-11.12.15:586][888]LogClass: GoKartMove HotReload.
+[2020.04.05-11.12.15:594][888]LogHotReload: Re-instancing GoKart after hot-reload.
+[2020.04.05-11.12.16:105][888]LogContentBrowser: Native class hierarchy updated for 'Krazy_Karts' in 0.0021 seconds. Added 6 classes and 2 folders.
+[2020.04.05-11.12.16:108][888]Display: HotReload successful (0 functions remapped  2 scriptstructs remapped)
+[2020.04.05-11.12.16:231][888]LogUObjectHash: Compacting FUObjectHashTables data took  34.79ms
+[2020.04.05-11.12.16:364][888]LogContentBrowser: Native class hierarchy populated in 0.1189 seconds. Added 3025 classes and 725 folders.
+[2020.04.05-11.12.16:364][888]Display: HotReload took 17.6s.
+[2020.04.05-11.13.07:059][208]Candidate modules for hot reload:
+[2020.04.05-11.13.07:060][208]  Krazy_Karts
+[2020.04.05-11.13.07:060][208]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Krazy_Karts,864 Win64 Development -TargetType=Editor -Project="C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject" "C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Krazy_Karts.uproject"  -IgnoreJunk]
+[2020.04.05-11.13.07:078][208]Warning: Starting HotReload took  0.1s.
+[2020.04.05-11.13.18:919][252]CompilerResultsLog: New page: Compilation - Apr 5, 2020, 5:13:18 PM
+[2020.04.05-11.13.18:921][252]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Mark Muana\source\repos\4_Krazy_Karts).
+[2020.04.05-11.13.18:921][252]CompilerResultsLog: Building Krazy_KartsEditor...
+[2020.04.05-11.13.18:922][252]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.05-11.13.18:922][252]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:   [1/4] GoKart.cpp
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:   C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Source\Krazy_Karts\GoKart.cpp(91): warning C4996: 'AActor::Role': This member will be made private. Please use GetLocalRole or SetRole. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:   [2/4] UE4Editor-Krazy_Karts-0864.lib
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-0864.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-0864.exp
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:   [3/4] UE4Editor-Krazy_Karts-0864.dll
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:      Creating library C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-0864.suppressed.lib and object C:\Users\Mark Muana\source\repos\4_Krazy_Karts\Krazy_Karts\Intermediate\Build\Win64\UE4Editor\Development\Krazy_Karts\UE4Editor-Krazy_Karts-0864.suppressed.exp
+[2020.04.05-11.13.18:922][252]CompilerResultsLog:   [4/4] Krazy_KartsEditor.target
+[2020.04.05-11.13.18:922][252]CompilerResultsLog: Total time in Parallel executor: 8.42 seconds
+[2020.04.05-11.13.18:922][252]CompilerResultsLog: Total execution time: 11.51 seconds
+[2020.04.05-11.13.18:922][252]LogMainFrame: MainFrame: Module compiling took 11.867 seconds
+[2020.04.05-11.13.19:106][252]LogUObjectHash: Compacting FUObjectHashTables data took  14.91ms
+[2020.04.05-11.13.19:170][252]LogContentBrowser: Native class hierarchy populated in 0.0334 seconds. Added 3025 classes and 725 folders.
+[2020.04.05-11.13.19:171][252]Display: HotReload took 12.2s.
+[2020.04.05-11.13.22:463][392]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.05-11.13.22:483][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.22:483][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.05-11.13.22:484][392]PIE: New page: PIE session: VehicleExampleMap (Apr 5, 2020, 5:13:22 PM)
+[2020.04.05-11.13.22:484][392]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-11.13.22:531][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046811s)
+[2020.04.05-11.13.22:536][392]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-11.13.22:537][392]LogPlayLevel: PIE: World Init took: (0.005816s)
+[2020.04.05-11.13.22:537][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.053078s)
+[2020.04.05-11.13.22:567][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.04.05-11.13.22:567][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.05-11.13.22:568][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.05-11.13.22:568][392]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.05-11.13.22:568][392]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Name: Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Is Default: Yes
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: Channel Order:
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.05-11.13.22:667][392]LogAudioMixer: Display: 1: FrontRight
+[2020.04.05-11.13.22:734][392]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-11.13.22:967][392]LogInit: FAudioDevice initialized.
+[2020.04.05-11.13.22:994][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.22:995][392]LogLoad: Game class is 'GameMode_BP_C'
+[2020.04.05-11.13.23:001][392]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-14.13.23
+[2020.04.05-11.13.23:002][392]LogWorld: Bringing up level for play took: 0.004035
+[2020.04.05-11.13.23:002][392]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.04.05-11.13.23:030][392]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.04.05-11.13.23:030][392]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.04.05-11.13.23:031][392]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.04.05-11.13.23:031][392]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.23:031][392]LogNet: GameNetDriver IpNetDriver_16 IpNetDriver listening on port 17777
+[2020.04.05-11.13.23:043][392]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap 1.139
+[2020.04.05-11.13.23:153][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.23:153][392]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2020.04.05-11.13.23:154][392]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.04.05-11.13.23:157][392]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.23:157][392]LogNet: Game client on port 17777, rate 10000
+[2020.04.05-11.13.23:159][392]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 1.255
+[2020.04.05-11.13.23:163][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.23:163][392]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54692
+[2020.04.05-11.13.23:163][392]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 120173043177226120145152079152090151009029192214027100136145
+[2020.04.05-11.13.23:166][392]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 120173043177226120145152079152090151009029192214027100136145
+[2020.04.05-11.13.23:305][393]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:54692
+[2020.04.05-11.13.23:305][393]LogHandshake: SendChallengeAck. InCookie: 120173043177226120145152079152090151009029192214027100136145
+[2020.04.05-11.13.23:305][393]LogNet: Server accepting post-challenge connection from: 127.0.0.1:54692
+[2020.04.05-11.13.23:307][393]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.23:307][393]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 04/05/20 14:13:23, [UNetConnection] RemoteAddr: 127.0.0.1:54692, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.23:307][393]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:54692, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.23:309][393]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: PendingNetDriver IpNetDriver_17, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.23:335][394]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2020.04.05-11.13.23:335][394]LogNet: Remote platform little endian=1
+[2020.04.05-11.13.23:335][394]LogNet: This platform little endian=1
+[2020.04.05-11.13.23:337][394]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.04.05-11.13.23:426][395]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B userId: NULL:markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B platform: NULL
+[2020.04.05-11.13.23:427][395]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/Blueprints/GameMode_BP.GameMode_BP_C)
+[2020.04.05-11.13.23:427][395]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/Blueprints/GameMode_BP.GameMode_BP_C
+[2020.04.05-11.13.23:427][395]LogWorld: BeginTearingDown for /Temp/Untitled_9
+[2020.04.05-11.13.23:427][395]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.23:427][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.23:427][395]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.23:460][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.04.05-11.13.23:487][395]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-11.13.23:490][395]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-14.13.23
+[2020.04.05-11.13.23:491][395]LogWorld: Bringing up level for play took: 0.002115
+[2020.04.05-11.13.23:491][395]LogLoad: Took 0.063860 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2020.04.05-11.13.23:511][396]LogNet: Client netspeed is 10000
+[2020.04.05-11.13.23:511][396]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B?SplitscreenCount=1
+[2020.04.05-11.13.23:512][396]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.23:513][396]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=710.000 Y=7500.000 Z=260.000] for [GoKart_BP_C]
+[2020.04.05-11.13.23:514][396]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type GoKart_BP_C at Rotation: Pitch 0.000000 Yaw -89.999985 Roll 0.000000
+Translation: 710.000000 7500.000000 260.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2020.04.05-11.13.23:514][396]LogNet: Join succeeded: markmuana-DESKTOP-8C
+[2020.04.05-11.13.23:721][409]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.23:758][412]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.26:814][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.26:814][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.26:814][542]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.26:814][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.26:814][542]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap
+[2020.04.05-11.13.26:826][542]LogSlate: Window 'Krazy_Karts Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-11.13.26:831][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.26:831][542]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.26:832][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.26:949][542]LogNet: World NetDriver shutdown IpNetDriver_17 [GameNetDriver]
+[2020.04.05-11.13.26:949][542]LogNet: DestroyNamedNetDriver IpNetDriver_17 [GameNetDriver]
+[2020.04.05-11.13.26:949][542]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B, Channels: 9, Time: 2020.04.05-11.13.26
+[2020.04.05-11.13.26:949][542]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_16, Driver: GameNetDriver IpNetDriver_17, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B
+[2020.04.05-11.13.26:949][542]LogExit: GameNetDriver IpNetDriver_17 shut down
+[2020.04.05-11.13.26:950][542]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-11.13.26:951][542]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.04.05-11.13.26:951][542]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.26:965][542]LogSlate: Window 'Krazy_Karts Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-11.13.26:975][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.26:975][542]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.26:976][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.26:982][542]LogNet: World NetDriver shutdown IpNetDriver_16 [GameNetDriver]
+[2020.04.05-11.13.26:982][542]LogNet: DestroyNamedNetDriver IpNetDriver_16 [GameNetDriver]
+[2020.04.05-11.13.26:983][542]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:54692, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B
+[2020.04.05-11.13.26:983][542]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:54692, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B, Channels: 9, Time: 2020.04.05-11.13.26
+[2020.04.05-11.13.26:983][542]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:54692, Name: IpConnection_17, Driver: GameNetDriver IpNetDriver_16, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-8CBDD50E43DC84DFC3F150BD50F7089B
+[2020.04.05-11.13.26:983][542]LogExit: GameNetDriver IpNetDriver_16 shut down
+[2020.04.05-11.13.26:984][542]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.05-11.13.26:984][542]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.26:987][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.27:030][542]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.27:090][542]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.04.05-11.13.27:176][543]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.04.05-11.13.27:176][543]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.04.05-11.13.28:950][740]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.05-11.13.28:962][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.28:962][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.05-11.13.28:962][740]PIE: New page: PIE session: VehicleExampleMap (Apr 5, 2020, 5:13:28 PM)
+[2020.04.05-11.13.28:962][740]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-11.13.28:983][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020888s)
+[2020.04.05-11.13.28:985][740]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-11.13.28:985][740]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2020.04.05-11.13.28:985][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.022780s)
+[2020.04.05-11.13.29:005][740]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.05-11.13.29:007][740]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.05-11.13.29:007][740]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.05-11.13.29:008][740]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.05-11.13.29:008][740]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Name: Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Is Default: Yes
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: Channel Order:
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.05-11.13.29:050][740]LogAudioMixer: Display: 1: FrontRight
+[2020.04.05-11.13.29:099][740]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-11.13.29:176][740]LogInit: FAudioDevice initialized.
+[2020.04.05-11.13.29:202][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.29:202][740]LogLoad: Game class is 'GameMode_BP_C'
+[2020.04.05-11.13.29:206][740]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-14.13.29
+[2020.04.05-11.13.29:206][740]LogWorld: Bringing up level for play took: 0.002043
+[2020.04.05-11.13.29:206][740]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.04.05-11.13.29:209][740]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.04.05-11.13.29:209][740]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.04.05-11.13.29:209][740]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.04.05-11.13.29:210][740]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.29:210][740]LogNet: GameNetDriver IpNetDriver_18 IpNetDriver listening on port 17777
+[2020.04.05-11.13.29:211][740]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap -0.692
+[2020.04.05-11.13.29:244][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.29:244][740]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2020.04.05-11.13.29:245][740]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.04.05-11.13.29:245][740]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.29:246][740]LogNet: Game client on port 17777, rate 10000
+[2020.04.05-11.13.29:247][740]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap -0.656
+[2020.04.05-11.13.29:251][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.29:251][740]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52166
+[2020.04.05-11.13.29:251][740]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 096123141164000036203145239074073168130253207038187014087087
+[2020.04.05-11.13.29:252][740]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 096123141164000036203145239074073168130253207038187014087087
+[2020.04.05-11.13.29:368][741]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52166
+[2020.04.05-11.13.29:368][741]LogHandshake: SendChallengeAck. InCookie: 096123141164000036203145239074073168130253207038187014087087
+[2020.04.05-11.13.29:368][741]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52166
+[2020.04.05-11.13.29:369][741]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.29:369][741]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 04/05/20 14:13:29, [UNetConnection] RemoteAddr: 127.0.0.1:52166, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.29:369][741]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52166, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.29:371][741]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: PendingNetDriver IpNetDriver_19, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.29:417][742]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2020.04.05-11.13.29:417][742]LogNet: Remote platform little endian=1
+[2020.04.05-11.13.29:417][742]LogNet: This platform little endian=1
+[2020.04.05-11.13.29:418][742]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.04.05-11.13.29:427][743]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E userId: NULL:markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E platform: NULL
+[2020.04.05-11.13.29:428][743]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/Blueprints/GameMode_BP.GameMode_BP_C)
+[2020.04.05-11.13.29:428][743]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/Blueprints/GameMode_BP.GameMode_BP_C
+[2020.04.05-11.13.29:428][743]LogWorld: BeginTearingDown for /Temp/Untitled_10
+[2020.04.05-11.13.29:428][743]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.29:428][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.29:429][743]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.29:466][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.04.05-11.13.29:489][743]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-11.13.29:493][743]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-14.13.29
+[2020.04.05-11.13.29:493][743]LogWorld: Bringing up level for play took: 0.001701
+[2020.04.05-11.13.29:494][743]LogLoad: Took 0.065216 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2020.04.05-11.13.29:523][744]LogNet: Client netspeed is 10000
+[2020.04.05-11.13.29:523][744]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E?SplitscreenCount=1
+[2020.04.05-11.13.29:523][744]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.29:524][744]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=210.000 Y=7500.000 Z=260.000] for [GoKart_BP_C]
+[2020.04.05-11.13.29:524][744]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type GoKart_BP_C at Rotation: Pitch 0.000000 Yaw -89.999985 Roll 0.000000
+Translation: 210.000000 7500.000000 260.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2020.04.05-11.13.29:524][744]LogNet: Join succeeded: markmuana-DESKTOP-30
+[2020.04.05-11.13.29:728][758]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.29:760][761]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.30:775][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.30:775][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.30:775][866]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.30:775][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.30:775][866]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap
+[2020.04.05-11.13.30:812][866]LogSlate: Window 'Krazy_Karts Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-11.13.30:814][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.30:814][866]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.30:814][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.30:821][866]LogNet: World NetDriver shutdown IpNetDriver_19 [GameNetDriver]
+[2020.04.05-11.13.30:821][866]LogNet: DestroyNamedNetDriver IpNetDriver_19 [GameNetDriver]
+[2020.04.05-11.13.30:821][866]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E, Channels: 9, Time: 2020.04.05-11.13.30
+[2020.04.05-11.13.30:821][866]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_18, Driver: GameNetDriver IpNetDriver_19, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E
+[2020.04.05-11.13.30:821][866]LogExit: GameNetDriver IpNetDriver_19 shut down
+[2020.04.05-11.13.30:822][866]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-11.13.30:822][866]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.04.05-11.13.30:822][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.30:834][866]LogSlate: Window 'Krazy_Karts Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-11.13.30:842][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.30:842][866]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.30:842][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.30:852][866]LogNet: World NetDriver shutdown IpNetDriver_18 [GameNetDriver]
+[2020.04.05-11.13.30:853][866]LogNet: DestroyNamedNetDriver IpNetDriver_18 [GameNetDriver]
+[2020.04.05-11.13.30:853][866]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:52166, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E
+[2020.04.05-11.13.30:853][866]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52166, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E, Channels: 9, Time: 2020.04.05-11.13.30
+[2020.04.05-11.13.30:853][866]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52166, Name: IpConnection_19, Driver: GameNetDriver IpNetDriver_18, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-3056B9914F4237DEC4B1A0A05F62445E
+[2020.04.05-11.13.30:853][866]LogExit: GameNetDriver IpNetDriver_18 shut down
+[2020.04.05-11.13.30:854][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.05-11.13.30:854][866]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.30:857][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.30:882][866]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.30:902][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.04.05-11.13.30:921][867]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.04.05-11.13.30:921][867]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.04.05-11.13.32:464][ 27]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2020.04.05-11.13.32:476][ 27]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.32:477][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.05-11.13.32:477][ 27]PIE: New page: PIE session: VehicleExampleMap (Apr 5, 2020, 5:13:32 PM)
+[2020.04.05-11.13.32:477][ 27]LogPlayLevel: Creating play world package: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-11.13.32:498][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021156s)
+[2020.04.05-11.13.32:499][ 27]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-11.13.32:500][ 27]LogPlayLevel: PIE: World Init took: (0.001685s)
+[2020.04.05-11.13.32:500][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap to /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap (0.022997s)
+[2020.04.05-11.13.32:523][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.04.05-11.13.32:654][ 27]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.05-11.13.32:654][ 27]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.05-11.13.32:654][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.05-11.13.32:709][ 27]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.05-11.13.32:709][ 27]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.05-11.13.32:709][ 27]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.05-11.13.32:709][ 27]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.05-11.13.32:709][ 27]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.05-11.13.32:709][ 27]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.05-11.13.32:709][ 27]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Name: Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Is Default: Yes
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: Channel Order:
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.05-11.13.32:751][ 27]LogAudioMixer: Display: 1: FrontRight
+[2020.04.05-11.13.32:796][ 27]LogAudioMixer: Display: Using Audio Device Speakers / Headphones (Realtek High Definition Audio)
+[2020.04.05-11.13.32:824][ 27]LogInit: FAudioDevice initialized.
+[2020.04.05-11.13.32:848][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.32:848][ 27]LogLoad: Game class is 'GameMode_BP_C'
+[2020.04.05-11.13.32:852][ 27]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-14.13.32
+[2020.04.05-11.13.32:852][ 27]LogWorld: Bringing up level for play took: 0.001944
+[2020.04.05-11.13.32:853][ 27]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.04.05-11.13.32:855][ 27]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2020.04.05-11.13.32:855][ 27]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2020.04.05-11.13.32:856][ 27]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2020.04.05-11.13.32:856][ 27]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.32:856][ 27]LogNet: GameNetDriver IpNetDriver_20 IpNetDriver listening on port 17777
+[2020.04.05-11.13.32:858][ 27]PIE: Play in editor start time for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap 0.954
+[2020.04.05-11.13.32:890][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.13.32:890][ 27]LogNet: Browse: 127.0.0.1:17777//Game/VehicleCPP/Maps/VehicleExampleMap
+[2020.04.05-11.13.32:891][ 27]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2020.04.05-11.13.32:891][ 27]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.32:891][ 27]LogNet: Game client on port 17777, rate 10000
+[2020.04.05-11.13.32:892][ 27]PIE: Play in editor start time for /Game/VehicleCPP/Maps/VehicleExampleMap 0.989
+[2020.04.05-11.13.32:896][ 27]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.13.32:896][ 27]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52167
+[2020.04.05-11.13.32:896][ 27]LogHandshake: SendConnectChallenge. Timestamp: 0.008378, Cookie: 217027174166137221032061087086156022237172047140139129197205
+[2020.04.05-11.13.32:897][ 27]LogHandshake: SendChallengeResponse. Timestamp: 0.008378, Cookie: 217027174166137221032061087086156022237172047140139129197205
+[2020.04.05-11.13.33:045][ 28]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:52167
+[2020.04.05-11.13.33:045][ 28]LogHandshake: SendChallengeAck. InCookie: 217027174166137221032061087086156022237172047140139129197205
+[2020.04.05-11.13.33:045][ 28]LogNet: Server accepting post-challenge connection from: 127.0.0.1:52167
+[2020.04.05-11.13.33:045][ 28]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2020.04.05-11.13.33:045][ 28]LogNet: NotifyAcceptedConnection: Name: VehicleExampleMap, TimeStamp: 04/05/20 14:13:33, [UNetConnection] RemoteAddr: 127.0.0.1:52167, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.33:045][ 28]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:52167, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.33:047][ 28]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: PendingNetDriver IpNetDriver_21, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2020.04.05-11.13.33:065][ 29]LogNet: NotifyAcceptingChannel Control 0 server World /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap.VehicleExampleMap: Accepted
+[2020.04.05-11.13.33:065][ 29]LogNet: Remote platform little endian=1
+[2020.04.05-11.13.33:065][ 29]LogNet: This platform little endian=1
+[2020.04.05-11.13.33:066][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.04.05-11.13.33:095][ 30]LogNet: Login request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2 userId: NULL:markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2 platform: NULL
+[2020.04.05-11.13.33:096][ 30]LogNet: Welcomed by server (Level: /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap, Game: /Game/Blueprints/GameMode_BP.GameMode_BP_C)
+[2020.04.05-11.13.33:096][ 30]LogLoad: LoadMap: 127.0.0.1:17777//Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap?game=/Game/Blueprints/GameMode_BP.GameMode_BP_C
+[2020.04.05-11.13.33:096][ 30]LogWorld: BeginTearingDown for /Temp/Untitled_11
+[2020.04.05-11.13.33:096][ 30]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.13.33:096][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.13.33:096][ 30]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.13.33:121][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.04.05-11.13.33:256][ 30]LogAIModule: Creating AISystem for world VehicleExampleMap
+[2020.04.05-11.13.33:260][ 30]LogWorld: Bringing World /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap.VehicleExampleMap up for play (max tick rate 0) at 2020.04.05-14.13.33
+[2020.04.05-11.13.33:260][ 30]LogWorld: Bringing up level for play took: 0.001828
+[2020.04.05-11.13.33:261][ 30]LogLoad: Took 0.164647 seconds to LoadMap(/Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap)
+[2020.04.05-11.13.33:274][ 31]LogNet: Client netspeed is 10000
+[2020.04.05-11.13.33:274][ 31]LogNet: Join request: /Game/VehicleCPP/Maps/VehicleExampleMap?Name=markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2?SplitscreenCount=1
+[2020.04.05-11.13.33:274][ 31]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.33:276][ 31]LogNet: Join succeeded: markmuana-DESKTOP-10
+[2020.04.05-11.13.33:613][ 51]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.13.33:686][ 58]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2020.04.05-11.14.12:348][783]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.05-11.14.12:368][783]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.05-11.14.12:378][783]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.05-11.14.12:399][783]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.05-11.14.12:399][783]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.14.12:399][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.14.12:400][783]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_2_VehicleExampleMap
+[2020.04.05-11.14.12:426][783]LogSlate: Window 'Krazy_Karts Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-11.14.12:428][783]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.14.12:428][783]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.14.12:428][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.14.12:436][783]LogNet: World NetDriver shutdown IpNetDriver_21 [GameNetDriver]
+[2020.04.05-11.14.12:436][783]LogNet: DestroyNamedNetDriver IpNetDriver_21 [GameNetDriver]
+[2020.04.05-11.14.12:436][783]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2, Channels: 11, Time: 2020.04.05-11.14.12
+[2020.04.05-11.14.12:436][783]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_20, Driver: GameNetDriver IpNetDriver_21, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2
+[2020.04.05-11.14.12:436][783]LogExit: GameNetDriver IpNetDriver_21 shut down
+[2020.04.05-11.14.12:437][783]LogWorld: BeginTearingDown for /Game/VehicleCPP/Maps/UEDPIE_1_VehicleExampleMap
+[2020.04.05-11.14.12:437][783]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2020.04.05-11.14.12:437][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.05-11.14.12:450][783]LogSlate: Window 'Krazy_Karts Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.05-11.14.12:454][783]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.14.12:454][783]LogWorld: UWorld::CleanupWorld for VehicleExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.14.12:455][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.14.12:460][783]LogNet: World NetDriver shutdown IpNetDriver_20 [GameNetDriver]
+[2020.04.05-11.14.12:460][783]LogNet: DestroyNamedNetDriver IpNetDriver_20 [GameNetDriver]
+[2020.04.05-11.14.12:461][783]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:52167, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2
+[2020.04.05-11.14.12:461][783]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:52167, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2, Channels: 11, Time: 2020.04.05-11.14.12
+[2020.04.05-11.14.12:461][783]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:52167, Name: IpConnection_21, Driver: GameNetDriver IpNetDriver_20, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:markmuana-DESKTOP-10B6491B4A8EF8492E19769065EFF4F2
+[2020.04.05-11.14.12:461][783]LogExit: GameNetDriver IpNetDriver_20 shut down
+[2020.04.05-11.14.12:462][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.05-11.14.12:462][783]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap' with GeneratedClass '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap_C' with ClassGeneratedBy '/Game/VehicleCPP/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.VehicleExampleMap'
+[2020.04.05-11.14.12:465][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.05-11.14.12:498][783]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.14.12:533][783]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2020.04.05-11.14.12:563][784]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.04.05-11.14.12:563][784]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.04.05-11.18.00:714][909]LogUObjectHash: Compacting FUObjectHashTables data took   8.63ms
+[2020.04.05-11.18.01:231][909]LogSlate: Window 'Krazy_Karts - Unreal Editor' being destroyed
+[2020.04.05-11.18.01:432][909]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.05-11.18.05:243][910]Cmd: QUIT_EDITOR
+[2020.04.05-11.18.05:243][910]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.04.05-11.18.05:691][910]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.05-11.18.05:766][910]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.05-11.18.11:990][910]LogExit: Preparing to exit.
+[2020.04.05-11.18.17:105][910]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.18.18:806][910]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.04.05-11.18.24:184][910]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.04.05-11.18.25:041][910]LogExit: Editor shut down
+[2020.04.05-11.18.26:902][910]LogExit: Transaction tracking system shut down
+[2020.04.05-11.18.42:339][910]LogExit: Object subsystem successfully closed.
+[2020.04.05-11.18.43:188][910]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.05-11.18.43:878][910]LogModuleManager: Shutting down and abandoning module Krazy_Karts (712)
+[2020.04.05-11.18.43:878][910]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (704)
+[2020.04.05-11.18.43:878][910]LogModuleManager: Shutting down and abandoning module Voice (702)
+[2020.04.05-11.18.43:878][910]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (700)
+[2020.04.05-11.18.43:878][910]LogModuleManager: Shutting down and abandoning module SceneOutliner (698)
+[2020.04.05-11.18.43:878][910]LogModuleManager: Shutting down and abandoning module AddContentDialog (696)
+[2020.04.05-11.18.44:600][910]LogModuleManager: Shutting down and abandoning module WidgetCarousel (695)
+[2020.04.05-11.18.44:600][910]LogModuleManager: Shutting down and abandoning module EditorWidgets (692)
+[2020.04.05-11.18.44:600][910]LogModuleManager: Shutting down and abandoning module CollectionManager (690)
+[2020.04.05-11.18.44:609][910]LogModuleManager: Shutting down and abandoning module StatsViewer (688)
+[2020.04.05-11.18.44:609][910]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (686)
+[2020.04.05-11.18.44:609][910]LogModuleManager: Shutting down and abandoning module FoliageEdit (684)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module LandscapeEditor (682)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module MeshPaintMode (680)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (678)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module ActorPickerMode (676)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module GeometryMode (674)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module TextureAlignMode (672)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module BspMode (670)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (668)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (666)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module AutomationWorker (664)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module SteamVREditor (662)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module OculusMR (660)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (658)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (656)
+[2020.04.05-11.18.44:610][910]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (654)
+[2020.04.05-11.18.44:612][910]LogModuleManager: Shutting down and abandoning module PlacementMode (653)
+[2020.04.05-11.18.44:612][910]LogModuleManager: Shutting down and abandoning module MaterialEditor (652)
+[2020.04.05-11.18.44:612][910]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (648)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (646)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (644)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (642)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (640)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module WebMMedia (638)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (636)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (634)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module SequenceRecorder (633)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (630)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (628)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (626)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (624)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (622)
+[2020.04.05-11.18.44:613][910]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (620)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (618)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (616)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (614)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (612)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module CharacterAI (610)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module SmartSnapping (608)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module SessionServices (606)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module MeshPaint (604)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module ViewportSnapping (602)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module ViewportInteraction (600)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module ClothPainter (598)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (597)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module LogVisualizer (594)
+[2020.04.05-11.18.44:614][910]LogModuleManager: Shutting down and abandoning module IntroTutorials (592)
+[2020.04.05-11.18.44:779][910]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (591)
+[2020.04.05-11.18.44:779][910]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (588)
+[2020.04.05-11.18.44:779][910]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (586)
+[2020.04.05-11.18.44:779][910]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (584)
+[2020.04.05-11.18.44:779][910]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (583)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (580)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (578)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (576)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (574)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (572)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (570)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module InputBindingEditor (568)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module MergeActors (566)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (564)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module LocalizationService (563)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module HardwareTargeting (560)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (558)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module UndoHistory (556)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module XmlParser (554)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module Blutility (552)
+[2020.04.05-11.18.46:025][910]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (550)
+[2020.04.05-11.18.46:114][910]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (549)
+[2020.04.05-11.18.46:114][910]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (546)
+[2020.04.05-11.18.46:114][910]LogModuleManager: Shutting down and abandoning module SettingsEditor (544)
+[2020.04.05-11.18.46:114][910]LogModuleManager: Shutting down and abandoning module ProjectLauncher (542)
+[2020.04.05-11.18.46:114][910]LogModuleManager: Shutting down and abandoning module SessionFrontend (540)
+[2020.04.05-11.18.46:115][910]LogModuleManager: Shutting down and abandoning module ProfilerClient (538)
+[2020.04.05-11.18.46:115][910]LogModuleManager: Shutting down and abandoning module DeviceManager (536)
+[2020.04.05-11.18.46:115][910]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (535)
+[2020.04.05-11.18.46:168][910]LogModuleManager: Shutting down and abandoning module AutomationController (532)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module AutomationWindow (530)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module Layers (528)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (526)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module DetailCustomizations (524)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module PackagesDialog (522)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (520)
+[2020.04.05-11.18.46:169][910]LogModuleManager: Shutting down and abandoning module Persona (518)
+[2020.04.05-11.18.46:178][910]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (517)
+[2020.04.05-11.18.46:178][910]LogModuleManager: Shutting down and abandoning module AnimGraph (515)
+[2020.04.05-11.18.46:178][910]LogModuleManager: Shutting down and abandoning module Kismet (512)
+[2020.04.05-11.18.46:231][910]LogModuleManager: Shutting down and abandoning module KismetWidgets (511)
+[2020.04.05-11.18.46:231][910]LogModuleManager: Shutting down and abandoning module GraphEditor (508)
+[2020.04.05-11.18.46:231][910]LogModuleManager: Shutting down and abandoning module StructViewer (506)
+[2020.04.05-11.18.46:231][910]LogModuleManager: Shutting down and abandoning module ClassViewer (504)
+[2020.04.05-11.18.46:232][910]LogModuleManager: Shutting down and abandoning module Toolbox (502)
+[2020.04.05-11.18.46:232][910]LogModuleManager: Shutting down and abandoning module ModuleUI (500)
+[2020.04.05-11.18.46:232][910]LogModuleManager: Shutting down and abandoning module OutputLog (498)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module GammaUI (496)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module Documentation (494)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module ToolMenus (492)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module LiveCoding (490)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module LevelSequence (488)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (486)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module MovieScene (484)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (482)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module LauncherPlatform (480)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module AnalyticsET (478)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module PortalServices (476)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module PortalRpc (474)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module MessagingRpc (472)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (470)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module AIModule (468)
+[2020.04.05-11.18.46:402][910]LogModuleManager: Shutting down and abandoning module GameplayDebugger (467)
+[2020.04.05-11.18.46:403][910]LogModuleManager: Shutting down and abandoning module AITestSuite (465)
+[2020.04.05-11.18.46:403][910]LogModuleManager: Shutting down and abandoning module NavigationSystem (463)
+[2020.04.05-11.18.46:403][910]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (460)
+[2020.04.05-11.18.46:445][910]LogModuleManager: Shutting down and abandoning module ProfilerService (458)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module TaskGraph (456)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module ScreenshotTools (454)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (452)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (450)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module OculusEditor (448)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module OculusInput (446)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (444)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module EditableMesh (442)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (440)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module CableComponent (438)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (435)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AssetTags (432)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (430)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (428)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AppleImageUtils (426)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AndroidPermission (424)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (422)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (420)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module MediaCompositing (418)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module ImgMedia (416)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (414)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (412)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (410)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module RawInput (408)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (406)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (404)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module BackChannel (402)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (400)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AutomationUtils (398)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AlembicImporter (396)
+[2020.04.05-11.18.46:548][910]LogModuleManager: Shutting down and abandoning module AlembicLibrary (395)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module GeometryCache (394)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (393)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (388)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (386)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (384)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module PluginBrowser (382)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (380)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (378)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module CurveEditorTools (376)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (374)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module CryptoKeys (372)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (370)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (368)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module UObjectPlugin (366)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (364)
+[2020.04.05-11.18.46:552][910]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (362)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (360)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module GitSourceControl (358)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module SourceControl (357)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (354)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (352)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (350)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (348)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (346)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (344)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (342)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module Paper2DEditor (340)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module SignificanceManager (336)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (334)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (332)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (328)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module ActorSequence (326)
+[2020.04.05-11.18.46:553][910]LogModuleManager: Shutting down and abandoning module UdpMessaging (324)
+[2020.04.05-11.18.46:658][910]LogModuleManager: Shutting down and abandoning module TcpMessaging (322)
+[2020.04.05-11.18.47:109][910]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (320)
+[2020.04.05-11.18.47:109][910]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (318)
+[2020.04.05-11.18.47:114][910]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.04.05-11.18.47:114][910]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (316)
+[2020.04.05-11.18.47:114][910]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (314)
+[2020.04.05-11.18.47:114][910]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (312)
+[2020.04.05-11.18.47:114][910]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (310)
+[2020.04.05-11.18.47:114][910]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (308)
+[2020.04.05-11.18.47:202][910]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (306)
+[2020.04.05-11.18.47:202][910]LogModuleManager: Shutting down and abandoning module MagicLeapController (304)
+[2020.04.05-11.18.47:237][910]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.05-11.18.47:237][910]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (302)
+[2020.04.05-11.18.47:237][910]LogModuleManager: Shutting down and abandoning module MagicLeapAR (300)
+[2020.04.05-11.18.47:271][910]LogModuleManager: Shutting down and abandoning module AugmentedReality (299)
+[2020.04.05-11.18.47:271][910]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (296)
+[2020.04.05-11.18.47:272][910]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (294)
+[2020.04.05-11.18.47:272][910]LogModuleManager: Shutting down and abandoning module FacialAnimation (292)
+[2020.04.05-11.18.47:272][910]LogModuleManager: Shutting down and abandoning module DataValidation (290)
+[2020.04.05-11.18.47:272][910]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (288)
+[2020.04.05-11.18.47:272][910]LogModuleManager: Shutting down and abandoning module LevelEditor (287)
+[2020.04.05-11.18.47:671][910]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (286)
+[2020.04.05-11.18.47:671][910]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (284)
+[2020.04.05-11.18.47:672][910]LogModuleManager: Shutting down and abandoning module MainFrame (282)
+[2020.04.05-11.18.47:672][910]LogModuleManager: Shutting down and abandoning module HotReload (281)
+[2020.04.05-11.18.47:672][910]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Mark Muana/source/repos/4_Krazy_Karts/Krazy_Karts/Binaries/Win64', and we were unable to create a new request.
+[2020.04.05-11.18.47:733][910]LogModuleManager: Shutting down and abandoning module ContentBrowser (277)
+[2020.04.05-11.18.47:950][910]LogModuleManager: Shutting down and abandoning module TreeMap (275)
+[2020.04.05-11.18.47:950][910]LogModuleManager: Shutting down and abandoning module AnimationSharing (272)
+[2020.04.05-11.18.47:950][910]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (270)
+[2020.04.05-11.18.47:950][910]LogModuleManager: Shutting down and abandoning module Paper2D (268)
+[2020.04.05-11.18.47:950][910]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (266)
+[2020.04.05-11.18.48:041][910]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (264)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (262)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module PacketHandler (260)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (258)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (256)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module MediaAssets (254)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module Overlay (252)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module OverlayEditor (251)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module VREditor (248)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module StringTableEditor (246)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (244)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (242)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module FunctionalTesting (240)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (238)
+[2020.04.05-11.18.48:044][910]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (237)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module UMG (234)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module UMGEditor (233)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module MessageLog (231)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module SlateReflector (226)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module Slate (224)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module SlateCore (222)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (220)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module UnrealEd (218)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module MRMesh (216)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (214)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (212)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module XAudio2 (210)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module Networking (208)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module Core (206)
+[2020.04.05-11.18.48:045][910]LogModuleManager: Shutting down and abandoning module MovieSceneTools (204)
+[2020.04.05-11.18.48:057][910]LogModuleManager: Shutting down and abandoning module CurveEditor (203)
+[2020.04.05-11.18.48:057][910]LogModuleManager: Shutting down and abandoning module Sequencer (201)
+[2020.04.05-11.18.48:057][910]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2020.04.05-11.18.48:196][910]LogModuleManager: Shutting down and abandoning module KismetCompiler (196)
+[2020.04.05-11.18.48:196][910]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
+[2020.04.05-11.18.48:196][910]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
+[2020.04.05-11.18.48:196][910]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
+[2020.04.05-11.18.48:196][910]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
+[2020.04.05-11.18.48:196][910]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
+[2020.04.05-11.18.48:238][910]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
+[2020.04.05-11.18.48:238][910]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
+[2020.04.05-11.18.48:238][910]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
+[2020.04.05-11.18.48:238][910]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
+[2020.04.05-11.18.48:238][910]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
+[2020.04.05-11.18.48:248][910]LogDerivedDataCache: Shutdown
+[2020.04.05-11.18.48:248][910]LogModuleManager: Shutting down and abandoning module XGEController (172)
+[2020.04.05-11.18.48:248][910]LogXGEController: Cleaning working directory: C:/Users/Mark Muana/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.05-11.18.48:249][910]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
+[2020.04.05-11.18.48:362][910]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
+[2020.04.05-11.18.48:363][910]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
+[2020.04.05-11.18.49:265][910]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2020.04.05-11.18.49:592][910]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2020.04.05-11.18.49:621][910]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (111)
+[2020.04.05-11.18.50:907][910]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (109)
+[2020.04.05-11.18.50:907][910]LogModuleManager: Shutting down and abandoning module InputCore (106)
+[2020.04.05-11.18.50:907][910]LogModuleManager: Shutting down and abandoning module Settings (104)
+[2020.04.05-11.18.50:907][910]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (102)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.04.05-11.18.51:036][910]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.04.05-11.18.51:036][910]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.04.05-11.18.51:066][910]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.04.05-11.18.51:067][910]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.04.05-11.18.51:121][910]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.04.05-11.18.51:121][910]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.04.05-11.18.51:121][910]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E75A491-4F7D-C877-A67A-8BACA5AE6804%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.24.3-11590370%2B%2B%2BUE4%2BRelease-4.24&UserID=67b6d1764c633232c4390897aba2a249%7C835d6d88af5b440a81e7a61a2ab5708e%7Cf91083c1-3789-4ecd-9e19-df340d54769f&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2020.04.05-11.18.51:212][910]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.04.05-11.18.51:281][910]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.04.05-11.18.51:285][910]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.04.05-11.18.51:288][910]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.04.05-11.18.51:288][910]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.04.05-11.18.51:288][910]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.04.05-11.18.51:413][910]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.04.05-11.18.51:413][910]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.04.05-11.18.51:418][910]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.04.05-11.18.51:418][910]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.04.05-11.18.51:418][910]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.04.05-11.18.51:418][910]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.05-11.18.51:418][910]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.05-11.18.51:418][910]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.05-11.18.51:602][910]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.05-11.18.51:603][910]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.05-11.18.51:603][910]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.05-11.18.51:603][910]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.05-11.18.51:759][910]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.05-11.18.51:759][910]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.05-11.18.51:759][910]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.05-11.18.51:759][910]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.05-11.18.51:759][910]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.05-11.18.51:759][910]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.05-11.18.51:760][910]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.05-11.18.51:760][910]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.05-11.18.51:760][910]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.05-11.18.51:760][910]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.05-11.18.51:760][910]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.05-11.18.51:760][910]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.05-11.18.52:001][910]LogD3D11RHI: Shutdown
+[2020.04.05-11.18.52:001][910]LogD3D11RHI: CleanupD3DDevice
+[2020.04.05-11.18.52:718][910]LogExit: Exiting.
+[2020.04.05-11.18.53:334][910]Log file closed, 04/05/20 14:18:53
