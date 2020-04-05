@@ -54,24 +54,30 @@ FString GetEnumText(ENetRole Role)
 // Called every frame
 void AGoKart::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(DeltaTime);	
 
-	if (IsLocallyControlled())
-	{
+	//	We are the server and in control of the pawn.
+	if (Role == ROLE_Authority && IsLocallyControlled())
+	{	
 		FGoKartMove Move = CreateMove(DeltaTime);
-
-		if (!HasAuthority())
-		{
-			UnacknowledgeMoves.Add(Move);
-		}		
-
-		UE_LOG(LogTemp, Warning, TEXT("Queue Length: %d"), UnacknowledgeMoves.Num())
-
 		Server_SendMove(Move);
-
-		SimulateMove(Move);
 	}		
 
+	if (Role == ROLE_AutonomousProxy)
+	{		
+		FGoKartMove Move = CreateMove(DeltaTime);	
+		SimulateMove(Move);
+
+		UnacknowledgeMoves.Add(Move);
+		Server_SendMove(Move);
+	}
+
+	if (Role == ROLE_SimulatedProxy)
+	{		
+		SimulateMove(ServerState.LastMove);
+	}
+
+	UE_LOG(LogTemp, Warning, TEXT("Queue Length: %d"), UnacknowledgeMoves.Num())
 	DrawDebugString(GetWorld(), FVector(0, 0, 100), GetEnumText(Role), this, FColor::Blue, DeltaTime);
 }
 
