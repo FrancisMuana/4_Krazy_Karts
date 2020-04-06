@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeKrazy_Karts_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x31D6D46B,
-				0x3F21B65E,
+				0x3E55A4E5,
+				0xF0ED966F,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
