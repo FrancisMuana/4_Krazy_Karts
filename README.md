@@ -95,3 +95,5 @@
 # Refactoring Into Components
 
 # Extracting A Movement Component
+
+# Extracting A Replication Component

@@ -265,6 +265,8 @@
     <NMakeOutput>..\..\Binaries\Win64\Krazy_Karts-Win64-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Krazy_Karts\MovementReplicationComponent.cpp" />
+    <ClInclude Include="..\..\Source\Krazy_Karts\MovementReplicationComponent.h" />
     <None Include="..\..\Krazy_Karts.uproject" />
     <None Include="..\..\Source\Krazy_Karts.Target.cs" />
     <None Include="..\..\Source\Krazy_KartsEditor.Target.cs" />
