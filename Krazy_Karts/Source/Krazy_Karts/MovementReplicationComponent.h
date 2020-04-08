@@ -39,13 +39,13 @@ protected:
 
 
 private:	
+	void ClearAcknowledgeMoves(FGoKartMove LastMove);
+
+	void UpdateServerState(const FGoKartMove& Move);
+
 	/** Handle pressing forwards */
 	UFUNCTION(Server, Reliable, WithValidation)
 	void Server_SendMove(FGoKartMove Move);
-
-	void ClearAcknowledgeMoves(FGoKartMove LastMove);
-
-	FGoKartState GetServerState() { return ServerState; };
 
 	UPROPERTY(ReplicatedUsing = OnRep_ServerState)
 	FGoKartState ServerState;

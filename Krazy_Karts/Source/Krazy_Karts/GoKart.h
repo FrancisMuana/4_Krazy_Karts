@@ -29,7 +29,6 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	
 private:	
-
 	void MoveForward(float Val);
 	void MoveRight(float Val);	
 
